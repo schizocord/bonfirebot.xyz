@@ -1,7 +1,7 @@
 // пикча
     function changeImage() {
       var image = document.getElementById("bonfire");
-      image.src = "https://media.discordapp.net/attachments/984099010484764673/1107272872969388142/Z_1.png?width=179&height=206";
+      image.src = "https://media.discordapp.net/attachments/1108454928936075264/1118148078550139050/rsz_img_20230610_135957.png?width=161&height=185";
       image.alt = "jizaaa";
     }
 // фразы
