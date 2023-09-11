@@ -43,3 +43,32 @@ var phrases = [
   var randomTextElement = document.getElementById("randomText");
   randomTextElement.innerText = getRandomPhrase();
         // крч да
+
+
+(function () {
+  let titles = [
+      "B",
+      "Bo",
+      "Bon",
+      "Bonf",
+      "Bonfi",
+      "Bonfir",
+      "Bonfire"
+
+  ];
+
+  let citates = [
+
+  ];
+
+  let titleIndex = 0;
+
+  function changeTitle() {
+      document.title = titles[titleIndex];
+      titleIndex = (titleIndex + 1) % titles.length;
+  }
+
+
+  setInterval(changeTitle, 500);
+})();
+
